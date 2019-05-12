@@ -1,0 +1,42 @@
+/* initialisation */
+
+h1, h2, h3, h4, h5 {
+    font-weight: 400 ;
+    font-family: 'Oswald', sans-serif;
+    color: #000;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 45px;
+    margin: 0;
+    line-height: 45px;
+}
+h3 {
+    font-size: 16px;
+    margin: 50px 0 10px;
+}
+h4 {
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 30px;
+    margin: 0;
+}
+h5 {
+    font-size: 18px;
+}
+
+.section-title h2{
+    display:block !important;
+    width:auto;
+    padding-bottom:15px !important;
+    margin-bottom:15px !important;
+    border-bottom : 2px solid orange;
+}
+.navbar-light .navbar-toggler-icon {
+    content: "5" !important;
+}
+
+.navbar ul {
+    display: block;
+    width: 100% !important;
+}
