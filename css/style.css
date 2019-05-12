@@ -1,111 +1,179 @@
 /* initialisations */
 * {
-    margin: 0 !important;
-    padding: 0 !important;
+	margin: 0 !important;
+	padding: 0 !important;
 }
-
 body {
-    padding: 0 !important;
-    margin: 0 !important;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    color: #545454;
-    line-height: 22px;
+	padding: 0 !important;
+	margin: 0 !important;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #545454;
+	line-height: 22px;
+	overflow-x: hidden;
+    word-wrap: normal;
 }
-
+a {
+    text-decoration: none !important;
+}
 .iconeY {
-    -webkit-filter: sepia(100%) ;
-      filter: sepia(100%) ;
+	-webkit-filter: sepia(100%);
+	filter: sepia(100%);
 }
-
-#section-home {
-    background: url('../media/mbr-1920x1281.jpg');
-    background-repeat: no-repeat;
+.button:hover {
+    border: 2px solid #ffb400;
+    background-color: #ffb400;
+    color: #fff;
+}
+a:hover {
+    color: #000;
+}
+a:hover, a:active {
+    outline: 0;
+}
+.button {
+    border: 2px solid #ffb400;
+    background-color: #FFF;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: #000;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 20px 0 !important;
+    padding: 10px 15px !important;
+    display: inline-block;
+    letter-spacing: 1px;
+    transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;
+}
+#section-aboutMe {
+    background: url('http://themezaa.com/html/resume/default/images/about.jpg');
     background-size: cover;
+    background-position: top right;
+}
+#section-aboutMe ul {
+    list-style-type: none; 
+    width:40vw;
+
+}
+#section-aboutMe ul li {
+    line-height: 3em !important; 
+    font-size:16px;
+    border-bottom : 3px solid rgba(0,0,0,0.1);
+}
+#section-aboutMe ul li em {
+    padding-left:5px !important;
 }
 
 /* ---------------------------------------------------------------------------------*/
 /* navigation */
 /* --------------------------------------------------------------------------------*/
-/ .menuNav {
-    width: 200px !important;
+.menuNav {
+	width: 200px !important;
 }
-
 aside {
-    display: flex;
-    flex-direction: column;
-    padding: 20px 0 20px 0px !important;
-    width: 20vw;
-    height: 100vh !important;
+	display: flex;
+	flex-direction: column;
+	padding: 20px 0 20px 0px !important;
+	width: 20vw;
+	height: 100vh !important;
+	position: fixed;
 }
-
 #maPhoto {
-    align-self: center;
-    width: 200px;
-    margin-top: 10px;
-    padding-bottom: 50px !important;
+	align-self: center;
+	width: 200px;
+	margin-top: 10px;
+	padding-bottom: 50px !important;
 }
-
 #maPhoto img {
-    border-radius: 50% !important;
-    padding: 0 10px 0 10px !important;
+	border-radius: 50% !important;
+	padding: 0 10px 0 10px !important;
 }
-
 .navbar a {
-    text-align: left;
-    font-family: 'Oswald', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    color: #FFF;
-    text-transform: uppercase;
+	text-align: left;
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #FFF;
+	text-transform: uppercase;
 }
-
 .navbar li {
-    display: block;
-    padding-left: 15px !important;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    line-height: 2.5em;
+	display: block;
+	padding-left: 15px !important;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	line-height: 2.5em;
 }
-
 .navbar li:hover {
-    background-color: rgb(61, 68, 75)
+	background-color: rgb(61, 68, 75)
 }
-
 .navbar li:hover a {
-    color: orange !important;
+	color: orange !important;
 }
-
 /* ---------------------------------------------------------------------*/
 /* mainpage */
 /* ---------------------------------------------------------------------*/
+#section-home {
+	background: url('../media/mbr-1920x1281.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.monMessage {
+    background-color: orange;
+    padding:20px !important;
+    border-radius:5px;
+    position:absolute;
+    top:20vh ;
+    left:20vw;
+}
 #mainpage {
-    position: absolute;
-    top: 0;
-    margin-left: 20vw !important;
-    width: 80vw !important;
-    overflow: hidden;
+	position: absolute;
+	top: 0;
+	margin-left: 20vw !important;
+	width: 80vw !important;
+	overflow: hidden;
 }
-
 .main-container {
-    display: flex;
-    flex-direction: row;
-    height: 100vh;
+	display: flex;
+	flex-direction: row;
+	min-height: 100vh;
+	overflow: hidden;
 }
-
 .divToSlide {
-    position: absolute;
-    display: flex;
+	position: absolute;
+	display: flex;
 }
-
 .section {
-    min-width: 80vw !important;
-    max-width: 80vw !important;
-    min-height: 100vh !important;
-    padding:15px 15px !important;
+	min-width: 80vw !important;
+	max-width: 80vw !important;
+	min-height: 100vh !important;
+	padding: 15px 15px !important;
+}
+/* experience */
+#section-experience {
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.myjob {
+	padding: 25px 0px !important;
+	border-bottom: 2px solid rgba(0,0,0,0.05);
+}
+.iconeY {
+    width:100px;
+    height:auto;
+	filter: brightness(90%) sepia(90%) hue-rotate(5deg) saturate(500%) contrast(0.7);
 }
 
-.myjob {
-    padding:25px 0px !important;
-    border-bottom:2px solid rgba(0,0,0,0.05);
+.typed-cursor {
+    color: black;
+}
+span.slogan {
+    font-size:18px !important;
+    color:#000;
+  -webkit-transition: 0.4s ease-in-out;
+  -moz-transition: 0.4s ease-in-out;
+  -ms-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out; 
 }
