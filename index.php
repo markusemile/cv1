@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link href="http://fonts.googleapis.com/css?family=Roboto:400,300italic,300,100italic,100,400italic,500,500italic,700,900,900italic,700italic%7COswald:400,300,700" rel="stylesheet" type="text/css">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animate.css">
@@ -31,14 +31,6 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
             
-
-
-
-
-
-
-
-
                 <div class="collapse navbar-collapse" id="myMenu">
                     <ul class="nav navbar-nav mr-auto mt-2 mt-lg-0">
                         <li class="nav-item active">
@@ -68,7 +60,9 @@
         <div id="mainpage">
             <div class="main-container">
                 <div class="divToSlide">
+                    <!-- ----------------------------------------------------------------------------------------------- -->
                     <!--     SECTION HOME                 -->
+                    <!-- ----------------------------------------------------------------------------------------------- -->
                     <div id="section-home" class="section">
                         <div class="monMessage">
                             <h1>Je m'appelle...Markus Emile !</h1>
@@ -77,7 +71,9 @@
                             </div>
                         </div>
                     </div>
+                    <!-- ----------------------------------------------------------------------------------------------- -->
                     <!--     SECTION ABOUT-ME             -->
+                    <!-- ----------------------------------------------------------------------------------------------- -->
                     <div id="section-aboutMe" class="section">
                         <div class="row section-title">
                             <h2>A propos de moi...</h2>
@@ -100,23 +96,96 @@
                             <h4><strong>profil professionnel</strong></h4><br><br>
                             <h5 class="text-primary">
                                 Comme vous pourrez le constater, je suis de nature autodidacte, j‘aime m‘enrichir l‘esprit et pense avoir le contact assez facile. Je m‘adapte facilement à une nouvelle équipe et/ou environnement. Resistant au stress et à la pression, habitué à devoir penser à plusieurs choses à la fois.
-
                                 </h5>
                         
-
-
                         </div>
                         <div class="row pt-3 col-md 4">
                             <span><a href="" class="button">télécharger mon C.V.</a></span>
                         </div>
-
-
                     </div>
+                    <!-- ----------------------------------------------------------------------------------------------- -->
+                    <!--     SECTION SKILLS             -->
+                    <!-- ----------------------------------------------------------------------------------------------- -->
+
                     <div id="section-skill" class="section">
                         <div class="row section-title">
-                            <h2>Skills</h2>
+                            <p>
+                                <span>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas porro, odio voluptatibus optio quis, sequi veritatis. Eveniet fuga, quia quam magni accusamus minus cupiditate velit labore fugit cum esse aspernatur eaque eos dolor ullam vero quaerat quidem ratione necessitatibus officiis. Architecto perspiciatis quisquam suscipit quae quod quia natus est, eius atque eos tempora deleniti ullam culpa amet nam, voluptatibus commodi minima, labore! Consequatur assumenda, rerum quos, eveniet suscipit voluptates necessitatibus nobis, cum unde dolores voluptatum harum quae, neque recusandae accusantium quisquam doloremque hic quidem sapiente ut sunt porro. Odio ex ipsa recusandae amet vitae quisquam asperiores harum quasi. Explicabo, sit.
+                                </span>
+                            
+                            </p>
+                        </div>
+                        <div class="row mt-5 justify-content-around">
+                            <div class="col-md-4">
+                                <div class="d-flex">
+                                    <div id="chart1" class="chart" data-percent="60">
+                                        <span class="percent">60</span>
+                                    </div>
+                                    <div class="col align-self-center ml-5">
+                                        <span><h4>HTML & CSS</h4></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="d-flex">
+                                    <div id="chart2" class="chart" data-percent="40">
+                                        <span class="percent">40</span>
+                                    </div>
+                                    <div class="col align-self-center ml-5">
+                                        <span><h4>PHP</h4></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-5 justify-content-between">
+                            <div class="col-md-4">
+                                <div class="d-flex">
+                                    <div id="chart3" class="chart" data-percent="60">
+                                        <span class="percent">60</span>
+                                    </div>
+                                    <div class="col align-self-center ml-5">
+                                        <span><h4>HTML & CSS</h4></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="d-flex">
+                                    <div id="chart4" class="chart" data-percent="40">
+                                        <span class="percent">40</span>
+                                    </div>
+                                    <div class="col align-self-center ml-5">
+                                        <span><h4>PHP</h4></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-5 justify-content-around">
+                            <div class="col-md-4">
+                                <div class="d-flex">
+                                    <div id="chart5" class="chart" data-percent="60">
+                                        <span class="percent">60</span>
+                                    </div>
+                                    <div class="col align-self-center ml-5">
+                                        <span><h4>HTML & CSS</h4></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="d-flex">
+                                    <div id="chart6" class="chart" data-percent="40">
+                                        <span class="percent">40</span>
+                                    </div>
+                                    <div class="col align-self-center ml-5">
+                                        <span><h4>PHP</h4></span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    <!-- ----------------------------------------------------------------------------------------------- -->
+                    <!--     SECTION EXPERIENCE             -->
+                    <!-- ----------------------------------------------------------------------------------------------- -->
                     <div id="section-experience" class="section">
                         <div class="col-md-12">
                             <div class="row section-title">
@@ -124,11 +193,8 @@
                             </div>
                             <div class="row">
                                 <h4 class="text-center pt-3 pb-5">
-                                Mes secteurs de prédilection ont en commun l‘utilisation de l‘ordinateur et l‘aide à autrui dans le milieu informatique. Mais je suis ouvert à
-toute proposition que vous trouverez en adéquation avec mon profil .</h4>
+                                Mes secteurs de prédilection ont en commun l‘utilisation de l‘ordinateur et l‘aide à autrui dans le milieu informatique. Mais je suis ouvert à toute proposition que vous trouverez en adéquation avec mon profil .</h4>
                             
-
-
                             </div>
                             <div class="row myjob justify-content-between">
                                 <div class="col-sm-6 col-md-6 d-block">
@@ -193,11 +259,65 @@ toute proposition que vous trouverez en adéquation avec mon profil .</h4>
                             </div>
                         </div>
                     </div>
+                    <!-- ----------------------------------------------------------------------------------------------- -->
+                    <!--     SECTION PORTFOLIO             -->
+                    <!-- ----------------------------------------------------------------------------------------------- -->
                     <div id="section-portfolio" class="section">
                         <div class="row section-title">
                             <h2>Portfolio</h2>
                         </div>
+                        <div class="row">
+                            <span class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis similique, earum placeat ullam architecto quo natus, magnam qui debitis fugiat soluta modi necessitatibus voluptatum expedita cupiditate iure porro et eaque pariatur! Veniam culpa dicta vitae suscipit reiciendis eum, libero cumque ratione dolor vero ducimus maiores perspiciatis aut eius voluptatum rem.</span>
+                        </div>
+                        <div class="folio">
+                            <div class="row">
+                                <div class="col-12 folioItem">
+                                    <img src="https://picsum.photos/id/1033/700/475" data-src="https://picsum.photos/id/1033/700/475" alt="" class="lozad">
+                                    <div class="folioItemText">
+                                        <div class="folioItemTextBack">
+                                            <div style="font-size:24px;color:white" class="pb-2">
+                                                <i class="far fa-plus-square fa-4x"></i>
+                                            </div>
+                                            <h4>Titre 01</h4>
+                                            <span class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam facere sit deserunt animi, optio aperiam!</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 folioItem">
+                                    <img data-src="https://picsum.photos/id/1074/700/475" src="https://picsum.photos/id/1074/700/475" alt="" class="lozad">
+                                    <div class="folioItemText">
+                                        <div class="folioItemTextBack">
+                                            <div style="font-size:24px;color:white" class="pb-2">
+                                                <i class="far fa-plus-square fa-4x"></i>
+                                            </div>
+                                            <h4>Titre 02</h4>
+                                            <span class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam facere sit deserunt animi, optio aperiam!</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 folioItem">
+                                    <img data-src="https://picsum.photos/id/134/700/475" src="https://picsum.photos/id/134/700/475" alt="" class="lozad">
+                                    <div class="folioItemText">
+                                        <div class="folioItemTextBack">
+                                            <div style="font-size:24px;color:white" class="pb-2">
+                                                <i class="far fa-plus-square fa-4x"></i>
+                                            </div>
+                                            <h4>Titre 03</h4>
+                                            <span class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam facere sit deserunt animi, optio aperiam!</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
+                    <!-- ----------------------------------------------------------------------------------------------- -->
+                    <!--     SECTION CONTACT             -->
+                    <!-- ----------------------------------------------------------------------------------------------- -->
                     <div id="section-contact" class="section">
                         <div class="row section-title">
                             <h2>Contact</h2>
@@ -210,9 +330,10 @@ toute proposition que vous trouverez en adéquation avec mon profil .</h4>
 
 
 
-
     <script src="js/jquery.easing.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easypiechart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
     <script src="js/actions.js"></script>
 </body>
 
